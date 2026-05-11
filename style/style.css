@@ -1,0 +1,45 @@
+body{
+    font-family: "Roboto";
+    background-color: #85193C;
+    color: #FFF6F6;
+
+}
+nav{
+    position: fixed;
+    background-color: black;
+   
+    height: 50px;
+    top:0px;
+    right: 0px;
+    left:0px;
+}
+header{
+    background-color: #C5172E;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top:50px;
+    font-weight: bold;
+    font-size: 20px;
+    height: 550px;
+}
+footer{
+    position: absolute;
+    background-color: black;
+   
+    height: 50px;
+    bottom:0px;
+    right: 0px;
+    left:0px;
+}
+main{
+    top: 650px;
+    position: relative;
+}
+.history{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+}
