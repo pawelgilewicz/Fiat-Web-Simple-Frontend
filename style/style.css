@@ -42,6 +42,7 @@ main{
 .container{
     display: flex;
     flex-direction: column;
+    padding-bottom: 40px;
 }
 .history{
     background-color: red;
